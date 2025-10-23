@@ -30,7 +30,7 @@ jobs:
 
         with:
 
-          images: ${{ vars.DOCKER_USERNAME }}/my-image
+          images: ${{ vars.DOCKER_USERNAME }}/helloworld
  
       - name: Log in to Docker Hub
 
